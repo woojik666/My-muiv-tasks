@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style/style.css">
+    <meta charset="utf-8">
+    <title>Регистрация/</title>
+  </head>
+  <body>
+    <header>Форма регистрации/входа</header>
+  <main>  
+    <div class="form">
+      <div class="container-reg">
+        <form class="grid-form" action="">
+          <h1 id="text-reg">Регистрация</h1>
+          <div>
+            <label for="name">Имя:</label>
+            <div><input type="text" id="name" maxlength="50" placeholder="Введите имя"></div>
+          </div>
+          <div>
+            <label for="email">Email:</label>
+            <div><input type="email" id="email" placeholder="Введите email"></div>
+          </div>
+          <div>
+            <label for="password">Пароль:</label>
+            <div><input type="password" id="password" placeholder="Придумайте пароль"></div>
+          </div>
+          <div>
+            <label for="age">Возраст:</label>
+            <div><select id="age">
+              <option>18-25</option>
+              <option>25+</option>
+            </div>
+            </select>
+          </div>
+          <div> 
+            <label for="description">О себе:</label>
+            <div>
+              <textarea id="description" maxlength="300" placeholder="Напишите что то о себе">
+              </textarea> 
+            </div>
+          </div>
+          <div>
+            <button class="reg">Зарегестрироваться</button>
+          </div>
+        </form>
+      </div>
+      <div class="login">
+        <form action="">
+          <h2 id="text-log">Вход</h2>
+          <div>
+            <label for="email1">Email:</label>
+            <div><input type="email" id="email1" placeholder="Введите ваш email"></div>
+          </div>
+          <div>
+            <label for="password1">Пароль:</label>
+            <div><input type="password" id="password1" placeholder="Введите ваш пароль"></div>
+          </div>
+          <div class="butlog">
+            <button id="button-log">Войти</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </main>
+    <footer></footer>
+  </body>
+</html>
